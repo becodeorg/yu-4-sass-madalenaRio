@@ -1,0 +1,6 @@
+@use 'base';
+@use 'style';
+
+body {
+    color: base.$secondary-color;
+}
