@@ -77,15 +77,12 @@ h6 {
   background-color: #000;
 }
 
-.message,
-.success,
-.error,
-.warning {
+.warning, .error, .success {
   border: 1px solid #ccc;
   padding: 16px;
   margin: 16px;
   color: #2748b3;
-  background-color: #000;
+  background-color: rgb(219, 165, 15);
 }
 
 .success {
@@ -94,8 +91,4 @@ h6 {
 
 .error {
   background-color: red;
-}
-
-.warning {
-  background-color: orange;
 }/*# sourceMappingURL=style.css.map */

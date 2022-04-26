@@ -97,25 +97,21 @@ body {
     background-color: #000;
 }
 
-.message,
-.success,
-.error,
 .warning {
   border: 1px solid #ccc;
   padding: $padding;
   margin: 16px;
   color: #2748b3;
-  background-color: #000;
+  background-color: rgb(219, 165, 15);
+
 }
 
 .success {
+  @extend .warning;
   background-color: green;
 }
 
 .error {
+  @extend .warning;
   background-color: red;
-}
-
-.warning {
-  background-color: orange;
 }
