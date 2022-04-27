@@ -1,6 +1,12 @@
-@use 'base';
+@use 'base' as *;
 @use 'style';
 
 body {
+    color: base.$secondary-color;
+}
+h1 {
+    color: base.$secondary-color;
+}
+h2 {
     color: base.$secondary-color;
 }

@@ -1,5 +1,5 @@
 @use "sass:math";
-@use 'base';
+@use 'base' as *;
 @mixin border-box-shadow {
   -webkit-box-shadow: 10px 10px 19px -4px rgba(247, 12, 149, 0.75);
   -moz-box-shadow: 10px 10px 19px -4px rgb(21, 255, 0);
@@ -101,9 +101,10 @@ body {
   border: 1px solid #ccc;
   padding: $padding;
   margin: 16px;
-  color: #2748b3;
+  color: #020c2a;
   background-color: rgb(219, 165, 15);
-
+  font-size: 150%;
+  font-style: italic;
 }
 
 .success {
