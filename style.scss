@@ -1,16 +1,33 @@
 @use "sass:math";
-@use 'base' as *;
 @mixin border-box-shadow {
-  -webkit-box-shadow: 10px 10px 19px -4px rgba(247, 12, 149, 0.75);
+  -webkit-box-shadow: 10px 10px 19px -4px rgba(65, 248, 9, 0.75);
   -moz-box-shadow: 10px 10px 19px -4px rgb(21, 255, 0);
   box-shadow: 10px 10px 19px -4px rgba(65, 248, 9, 0.75);
 }
 
 $padding: 16px;
 
+#button {
+  @include border-box-shadow;
+  display: inline-block;
+  height: 50px;
+  margin: 50px;
+  padding: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: medium;
+  font-weight: bolder;
+  color: #04340a;
+  width:fit-content;
+  background-color: #73f616;
+  border: 3px solid rgb(255, 255, 255);
+  border-radius: 10px;
+  }
+
+  a[id=button]:hover {background: blue;}
+ 
 body {
     font: 100% "Space Mono", monospace;
-    color: #dee3f5;
+    color: #02c8fa;
     margin: 0px;
     padding: 0px;
     background-color: #000;

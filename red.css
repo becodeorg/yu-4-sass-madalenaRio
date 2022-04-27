@@ -1,6 +1,28 @@
+#button {
+  box-shadow: 10px 10px 19px -4px rgba(65, 248, 9, 0.75);
+  display: inline-block;
+  height: 50px;
+  margin: 50px;
+  padding: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: medium;
+  font-weight: bolder;
+  color: #04340a;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  background-color: #73f616;
+  border: 3px solid rgb(255, 255, 255);
+  border-radius: 10px;
+}
+
+a.button:hover, a.button:active {
+  font-size: 150%;
+}
+
 body {
   font: 100% "Space Mono", monospace;
-  color: #dee3f5;
+  color: #02c8fa;
   margin: 0px;
   padding: 0px;
   background-color: #000;
@@ -96,13 +118,13 @@ h6 {
 }
 
 body {
-  color: red;
+  color: rgb(255, 38, 0);
 }
 
 h1 {
-  color: red;
+  color: rgb(255, 38, 0);
 }
 
 h2 {
-  color: red;
+  color: rgb(255, 38, 0);
 }/*# sourceMappingURL=red.css.map */
